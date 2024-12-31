@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Bootstrap Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+        --bs-purple-500: #3057c6;
+        --bs-green: #a3e4d7;
+        --bs-pad-over-5:90px;
+        --bs-hight:200px;
+        }
+    </style>
+    <head>
+        
+<body>
+       <div class="container pt-5 bg-white" style=" padding: var(--bs-pad-over-5);">
+        <!-- Nav Bar -->
+        <div class="row ">
+            <div class="col-6">
+                <p class="text-primary">Nguon</p>
+            </div>
+            <div class="col-6">
+                <!-- Nav Bar -->
+                 <nav>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="d-flex justify-content-end list-unstyled ">
+                                <li class="me-3">
+                                    <a class="text-decoration-none text-dark" href="#">Home</a>
+                                    <i style="font-size: 10px;" class="fa-solid fa-chevron-down"></i>
+                                </li>
+                                <li class="me-3">
+                                    <a class="text-decoration-none text-dark" href="#">Services</a>
+                                    <i style="font-size: 10px;" class="fa-solid fa-chevron-down"></i>
+                                </li>
+                                <li class="me-3">
+                                    <a class="text-decoration-none text-dark" href="#">Parts</a>
+                                    <i style="font-size: 10px;" class="fa-solid fa-chevron-down"></i>
+                                </li>
+                                <li class="me-3">
+                                    <a class="text-decoration-none text-dark" href="#">Contact Us</a>
+                                </li>
+                                <li class="me-3">
+                                    <i class="fa-solid fa-bars"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                 </nav>
+                 
+            </div>
+        </div>
+        <!-- Hero Section -->
+        <div class="row mt-5">
+            <div class="col-6">
+            <div class="h1 fw-bold" style="font-size: 100px;">Personal <br> finance,
+            </div>
+            <div class="h1 fw-bolder" style="color:var(--bs-purple-500);font-size: 100px;">
+                reimagined
+            </div>
+            <div>
+               <p>Download the nguon app</p>     
+            </div>
+            <div>
+                <img style="width: 35%;" src="img/1.jpg" alt="downlad">
+            </div>
+              
+            
+            </div>
+            <div class="col-6">
+                <img class="w-100" src="img/3.jpg" alt="image2">
+            </div>
+         </div>
+        <!-- Choose page  -->
+        <div class="row mt-5">
+        <div class="col-12">
+            <h1 style="color:var(--bs-purple-500)" class="fw-bold">Choose better</h1>
+            <h2 class="fw-normal">with nguon</h2>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div  class="card w-100 bg-info text-white p-3">
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body text-center" style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12 text-end">
+                        <img class="w-25" src="img/Approve_icon.svg" alt="item1">
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4">
+                        Protect what 
+                        <br>
+                        matters
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card w-100  bg-secondary text-white p-3" >
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body text-center " style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12 text-end">
+                        <img class="w-25" src="img/Approve_icon.svg" alt="item1">
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4">
+                        Protect what 
+                        <br>
+                        matters
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div  class="card w-100 bg-info text-white p-3">
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body  text-center" style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12 text-end">
+                        <img class="w-25" src="img/Approve_icon.svg" alt="item1">
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4">
+                        Protect what 
+                        <br>
+                        matters
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Take Control Section -->
+         <div class="row mt-5">
+           <div class="col-12">
+            <h1 class="fw-bold" style="color: var(--bs-purple-500);">Take control <span class="text-dark">of</span><br>
+                <span class="text-dark">your money</span>
+            </h1>
+           </div> 
+         </div>
+
+         <!-- Finance at your finger tips section -->
+         <div class="row" style="margin-top:var(--bs-pad-over-5) ;">
+            <div class="col-6 mt-5 pt-5">
+                <h1 class="fw-bold">Finaces at your fingertips</h1>
+                <ul class="fs-4 list-unstyled">
+                    <li class="d-flex align-items-center mt-5">
+                        <i class="fa-solid fa-circle me-3" style="font-size: 10px; color:var(--bs-purple-500)"></i> 
+                        Easy for all view 
+                    </li>
+                    <li class="d-flex align-items-center mt-3">
+                        <i class="fa-solid fa-circle me-3" style="font-size: 10px; color:var(--bs-purple-500)"></i> 
+                        Easy for all view One click withdrawal
+                    </li>
+                    <li class="d-flex align-items-center mt-3">
+                        <i class="fa-solid fa-circle me-3" style="font-size: 10px; color:var(--bs-purple-500)"></i> 
+                        Premuim
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <img src="img/4.png" alt="">
+            </div>
+         </div>
+         <!-- Building our expertise, for you -->
+        <div class="row p-5 shadow-sm" style="background-color: rgba(247,248,252,255);">
+            <h1  class="fw-bold">Building our</h1>
+            <h1 style="color:var(--bs-purple-500)" class="fw-bold">expertise, for you</h1>
+        </div>
+
+        <div class="row p-5 shadow-sm" style="background-color: rgba(247,248,252,255);">
+            <div class="col-4">
+                <div  class="card w-100 bg-info text-white p-3">
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body " style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, similique.
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4 text-end">
+                       <span class="p-2  rounded-circle" style="background-color: rgba(99,171,159,255);"> <i class="fa-solid fa-plus"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div  class="card w-100 bg-info text-white p-3">
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body " style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, similique.
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4 text-end">
+                       <span class="p-2  rounded-circle" style="background-color: rgba(99,171,159,255);"> <i class="fa-solid fa-plus"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div  class="card w-100 bg-info text-white p-3">
+                    <!-- card-header -->
+                    <div >
+                        <p>Card Title</p>
+                    </div>
+
+                    <!-- card body -->
+                    <div class="card-body " style="height: var(--bs-hight);">
+                       <div class="row">
+                        <div class="col-12">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, similique.
+                        </div>
+                       </div>
+                    </div>
+                    <!-- card-footer -->
+                    <div class="fw-bold h4 text-end">
+                       <span class="p-2  rounded-circle" style="background-color: rgba(99,171,159,255);"> <i class="fa-solid fa-plus"></i></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- World of Nguon -->
+        <div class="row pt-5 d-flex justify-content-center">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+            <h1  class="fw-bold me-3">World of</h1>
+            <h1 style="color:var(--bs-purple-500)" class="fw-bold">Nguon</h1>
+            </div>
+            <div class="d-flex w-50">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, rerum pariatur labore sequi facere totam ipsa perspiciatis necessitatibus odit similique mollitia, quisquam vitae aspernatur optio dicta distinctio nihil rem officiis?</p>
+            </div>
+
+        </div>
+        <div class="row pt-5">
+            <div class="col-12 d-flex justify-content-center">
+                <button style="background-color: var(--bs-purple-500); width: 150px;height: 50px;" class="text-white fw-bold rounded border border-white">Learn More</button>
+            </div>
+        </div>
+        
+       </div>
+</body>
+</html> 
